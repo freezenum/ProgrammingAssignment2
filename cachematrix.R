@@ -82,7 +82,6 @@ cacheSolve <- function(x, ...) {
 # Sample output:
 # > source("cacheMatrix.R")
 # > myFunctionList <- makeCacheMatrix(matrix(c(1,1,1,3,4,3,3,3,4), nrow=3, ncol=3))
-# > newMatrix = matrix(c(1,1,1,3,4,3,3,3,4), nrow=3, ncol=3)
 # > myFunctionList[["get"]]()
 #      [,1] [,2] [,3]
 # [1,]    1    3    3
